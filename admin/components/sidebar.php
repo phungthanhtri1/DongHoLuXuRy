@@ -15,9 +15,13 @@
         <a href="index.php?act=danhmuc" class="nav-link <?php echo (strpos($act,'dm')!==false || $act=='danhmuc')?'active':''; ?>">
             <i class="bi bi-tags-fill"></i> Danh mục
         </a>
-        
+
         <a href="index.php?act=listsp" class="nav-link <?php echo (strpos($act,'sp')!==false)?'active':''; ?>">
             <i class="bi bi-box-seam-fill"></i> Sản phẩm
+        </a>
+
+        <a href="index.php?act=listbv" class="nav-link <?php echo (strpos($act,'bv')!==false)?'active':''; ?>">
+            <i class="bi bi-newspaper"></i> Bài viết
         </a>
         
         <a href="index.php?act=donhang" class="nav-link <?php echo ($act=='donhang')?'active':''; ?>">
